@@ -1,0 +1,34 @@
+{
+  "name": "authenticate_nodejs_api_with_json_web_tokens",
+  "version": "1.0.0",
+  "description": "Authenticate a Node.js API with JSON Web Tokens",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shobhitsharma12/Authenticate_Nodejs_API_with_JSON_Web_Tokens.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "JWT",
+    "Authenticate"
+  ],
+  "author": "shobhit sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shobhitsharma12/Authenticate_Nodejs_API_with_JSON_Web_Tokens/issues"
+  },
+  "homepage": "https://github.com/shobhitsharma12/Authenticate_Nodejs_API_with_JSON_Web_Tokens#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.9.1"
+  }
+}
